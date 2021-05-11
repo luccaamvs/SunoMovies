@@ -1,0 +1,54 @@
+a{
+  text-decoration:none;
+}
+.header_div{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px 30px 0px;
+  margin-bottom: 100px;
+  background-color:#212125;
+}
+
+.nav{
+  display: flex;
+  padding-left: 30px;
+}
+.suno_movies1{
+  display: flex;
+  
+  color: #d2d2d3;
+}
+.suno_movies2{
+  font-weight: bold;  
+  padding-left:5px ;
+  color: #fe3189;
+}
+
+.suno_movies{
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+/* Animação 
+.suno_movies a{
+  font: 100%;
+  transform: scale(0.4);
+  transition: all ease 0.1s;
+}
+.suno_movies a:hover{
+  transform: scale(1);
+} */
+.inline{
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.options{
+  text-transform: uppercase;
+  color: #d2d2d3;
+  padding: 10px 30px
+}
